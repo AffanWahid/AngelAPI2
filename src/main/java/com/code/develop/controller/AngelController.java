@@ -69,6 +69,8 @@ public class AngelController {
 	     return	service.deleteAngelUserById(ahId);	 //done	
 	}
 
+	
+	//This will create another angel and will not update previous angel
 	@PutMapping("/angelUser/updateAngelUserById")
 	public ResponseEntity<AngelUser> updateAngelUserById(@RequestBody AngelUser angelUser) {
 			service.updateAngelUserById(angelUser);

@@ -34,7 +34,7 @@ public class AngelService {
 	}
 	
 	
-	
+	//Does not work properly
 	public AngelUser updateAngelUserById(AngelUser angelUser) {
 		return  saveAngelUserDetail(angelUser);
 	}
